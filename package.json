@@ -1,0 +1,25 @@
+{
+  "name": "palette",
+  "version": "1.0.0",
+  "description": "A minimal color picker that does not use Adobe Flash. Forked from https://github.com/trikita/palette",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jade": "^1.0.0",
+    "jade": "^1.11.0",
+    "load-grunt-tasks": "^3.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "json-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DreamHazard/palette.git"
+  },
+  "author": "DreamHazard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DreamHazard/palette/issues"
+  },
+  "homepage": "https://github.com/DreamHazard/palette#readme"
+}

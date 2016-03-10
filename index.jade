@@ -96,7 +96,7 @@ html(lang="en")
 			h1.flex.center Palette
 			nav.flex.center.col
 				ul.flex.menu
-					each palette in palettes
+					each palette in data.palettes
 						li.flex
 							a.active(href='##{palette.name}') #{palette.name}
 				ul.flex.center.format
@@ -118,7 +118,7 @@ html(lang="en")
 				p.flex
 					a.active(href="https://github.com/zserge/palette") github
 		section.palettes
-			each palette in palettes
+			each palette in data.palettes
 				<!-- Colors from the #{palette.name} guidelines -->
 				h1(id='#{palette.name}')
 					a(href='#top') #{palette.name}
@@ -134,4 +134,3 @@ html(lang="en")
 						.color(class='#{fgclass}', style='background: #{bg}; width: #{w}%', data-color='#{color}')
 							.name #{name}
 							.rgb #{bg}
-
