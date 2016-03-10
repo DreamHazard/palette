@@ -1,9 +1,10 @@
 # Palette
 
-http://0xrgb.com - a minimal color picker that does not use Adobe Flash.
+A minimal color picker that does not use Adobe Flash. Forked from https://github.com/trikita/palette
 
 ## Features
 
+* Now with ARGB, compatible with XAML in Visual Studio
 * All popular color palettes in one place: - Material (Android) - iOS 7/8 -
 	Metro (Windows Phone 7/8) - FlatUI - Solarized - Tango (Gnome)
 * HTML5 Clipboard API to copy color values into the clipboard
@@ -11,19 +12,14 @@ http://0xrgb.com - a minimal color picker that does not use Adobe Flash.
 * Works well enough even without javascript (e.g. with NoScript enabled)
 * Open source
 
-## Screenshots
-
-![Flat UI colors](palette1.png "Flat UI colors")
-![Material UI colors](palette2.png "Material colors")
-
 ## Why another one color picker?
 
 In our apps we often use colors from some well-known palettes. If we make an
 Android app - we follow material guidelines, if we make a hipster webapp - we
 use calm FlatUI colors etc.
 
-Now we have one tiny web page aggregating all popular palettes. Btw, if there
-is a famous palette that is missing in our list - let us know!
+Now we have one tiny web page aggregating some popular palettes. Let the original 
+author know if there's anything they've missed, since I doubt I'll be maintaining this
 
 But the bigger problem is the way how other pickers work. As of 2015 they all
 suck because they use Adobe Flash.  In fact, they only use Flash to copy
@@ -52,6 +48,5 @@ color.
 ## License
 
 Made by @zserge and @krugloid.
+ARGB color format added by @dreamhazard
 Distributed under MIT license.
-Any feedback is welcome!
-
